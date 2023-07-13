@@ -5,8 +5,11 @@ Leche 20
 Pan 18
 Manzanas 19
 
-
-
+Pasos (Pseudocódigo):
+1) Ans = 50 + 20
+2) Ans = Ans + 18
+3) Ans = Ans + 19
+4) Mostrar Ans en pantalla
 
 
 
