@@ -1,9 +1,0 @@
-Sesión Julio 11
----------------
-- Presentación de entorno de trabajo -> Anaconda (Jupyter y Spyder)
-- Introducción a la programación en Python.
-- Concepto de variable.
-- Declaración de variables en Python (primer script).
-- Tipos de datos en las variables.
-- Operaciones aritméticas nativas.
-- Introducción Jerarquía de Signos.

@@ -1,0 +1,10 @@
+Sesión Julio 13
+---------------
+- Del algoritmo a su implementación
+(Recurso Complementario: Profesor Omar Iván Trejos -> https://youtu.be/OyPJpud974E)
+- Implementando jerarquía de signos
+- Introducción a funciones
+- Dividiendo un script (algoritmo en un lenguaje) en fracciones menores -> Funciones
+- Características de las funciones en Python
+- Ejercicios de aplicación
+- Introducción a modularización del código y separación de la lógica y la interacción
