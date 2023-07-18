@@ -1,0 +1,9 @@
+Sesión Julio 18
+---------------
+- Introducción a funciones
+- Dividiendo un script (algoritmo en un lenguaje) en fracciones menores -> Funciones
+- Características de las funciones en Python
+- Ejercicios de aplicación
+- Introducción a modularización del código y separación de la lógica y la interacción
+- Lógica vs Interacción
+	* MVC -> Modelo Vista Controlador (Introducción)
