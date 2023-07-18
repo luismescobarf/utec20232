@@ -5,5 +5,11 @@ Sesión Julio 18
 - Características de las funciones en Python
 - Ejercicios de aplicación
 - Introducción a modularización del código y separación de la lógica y la interacción
+	* Agrupando funciones según su funcionalidad en scripts de definición
+	* Módulos -> Agrupa scripts que contienen definiciones de funciones
+	* Librería -> Grupo de módulos especializados
+	* Framework -> Conjunto de librerías para acelerar el desarrollo en un frente específico
 - Lógica vs Interacción
 	* MVC -> Modelo Vista Controlador (Introducción)
+
+

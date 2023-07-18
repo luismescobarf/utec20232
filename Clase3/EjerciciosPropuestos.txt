@@ -1,0 +1,75 @@
+Totalizar la siguiente de lista de productos con una calculadora:
+
+Huevos 50
+Leche 20
+Pan 18
+Manzanas 19
+
+Pasos (Pseudocódigo):
+1) Ans = 50 + 20
+2) Ans = Ans + 18
+3) Ans = Ans + 19
+4) Mostrar Ans en pantalla
+
+
+
+****************************************************************************
+
+- Problema: se necesita un algoritmo
+que reciba dos valores y calcule 
+el doble de la suma de estos.
+
+
+
+*******************************************************************************
+
+Primer Set de Ejercicios:
+-----------------------
+
+1) Algoritmo para calcular el área de un cuadrado
+2) Algoritmo para calcular el perímtero de un cuadrado
+3) Algoritmo para calcular la distancia entre dos
+puntos (Distancia Euclidiana) (x1,y1) (x2,y2)
+4) Algoritmo para calcular el área del círculo
+5) Algoritmo para calcular el volumen de un cono
+6) Algoritmo para calcular el área de un pentágono
+regular
+7) Algoritmo para calcular el volumen de un 
+paralelepípedo
+8) Algoritmo para calcular el promedio de
+4 notas, cada una en escala de 0.0 a 5.0
+
+************************************************************************************
+
+Segundo Set de Ejercicios:
+--------------------------
+
+1) Escribir un algoritmo para hallar 
+el área de un triángulo.
+2) Escribir una función que recibe la capacidad de atención
+que tiene un puesto de salud (número de personas) por día,
+y 5 valores que corresponden a los pacientes que llegaron los días
+hábiles (lunes a viernes) de la semana anterior. Obtener cuántas personas
+no fueron atendidas en promedio la semana anterior, y cuál fue el día
+donde el servicio presentó mayor desborde.
+3) Escribir un algoritmo que reciba cuatro números
+y reporte la diferencia de los dos primeros,
+reporte el producto del tercero y el cuarto,
+reporte el promedio de los cuatro números.
+3b) Escribir un algoritmo que reciba cuatro números
+y reporte la diferencia de los dos primeros,
+reporte el producto del tercero y el cuarto,
+reporte el promedio descartando el menor de los números.
+4) Escribir un algoritmo para hallar el área de un círculo.
+5) Algoritmo para acumular la diferencia de 4 números:
+Sumar la diferencia entre el primero y el segundo,
+luego sumar la diferencia entre el segundo y el tercero,
+luego sumar la diferencia entre el tercero y el cuarto,
+finalmente sumar la diferencia entre el primero y el cuarto.
+6) Escribir un algoritmo que recibe los lados de un polígono
+irregular de 4 lados y retorna la diferencia que hay entre
+el lado de mayor longitud y el lado de menor longitud.
+7) Se requiere calcular la distancia promedio que existe
+en una sucesión de 4 puntos. Cada punto es una coordenada
+del plano cartesiano. Mostrar en pantalla dicho promedio,
+la longitud del eslabón mínimo y la longitud del eslabón máximo.
