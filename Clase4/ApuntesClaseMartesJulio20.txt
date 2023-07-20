@@ -7,6 +7,7 @@ Sesión Julio 20
 	* Framework -> Conjunto de librerías para acelerar el desarrollo en un frente específico
 - Lógica vs Interacción
 	* MVC -> Modelo Vista Controlador (Introducción)
+- Ejercicios de aplicación (ejemplo de reto/entregable)
 - Tipos de datos booleanos, sentendias declarativas y expresiones booleanas
 
 
