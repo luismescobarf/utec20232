@@ -1,0 +1,12 @@
+Sesión Julio 20
+---------------
+- Introducción a modularización del código y separación de la lógica y la interacción
+	* Agrupando funciones según su funcionalidad en scripts de definición
+	* Módulos -> Agrupa scripts que contienen definiciones de funciones
+	* Librería -> Grupo de módulos especializados
+	* Framework -> Conjunto de librerías para acelerar el desarrollo en un frente específico
+- Lógica vs Interacción
+	* MVC -> Modelo Vista Controlador (Introducción)
+- Tipos de datos booleanos, sentendias declarativas y expresiones booleanas
+
+
