@@ -46,12 +46,14 @@ Segundo Set de Ejercicios:
 
 1) Escribir un algoritmo para hallar 
 el área de un triángulo.
+
 2) Escribir una función que recibe la capacidad de atención
 que tiene un puesto de salud (número de personas) por día,
 y 5 valores que corresponden a los pacientes que llegaron los días
 hábiles (lunes a viernes) de la semana anterior. Obtener cuántas personas
-no fueron atendidas en promedio la semana anterior, y cuál fue el día
+no fueron atendidas en promedio la semana anterior, y cuánto fue el número de usuarios
 donde el servicio presentó mayor desborde.
+
 3) Escribir un algoritmo que reciba cuatro números
 y reporte la diferencia de los dos primeros,
 reporte el producto del tercero y el cuarto,
