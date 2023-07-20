@@ -46,32 +46,3 @@ desbordeMax = l.calcularDesbordeMayor(difUsuariosLunes, difUsuarioMartes, difUsu
 
 #10) Presentar informe (indicadores solicitados)
 inter.presentarInforme(promedioExcedente, desbordeMax)
-
-
-
-
-
-#6) Obtener pacientes que llegaron el viernes.
-pacientesViernes = int(input("Pacientes viernes: "))
-
-#7) Obtener personas sin atender para cada día.
-difUsuariosLunes = pacientesLunes - capacidadAtencion
-difUsuarioMartes = pacientesMartes - capacidadAtencion
-difUsuarioMiercoles = pacientesMiercoles - capacidadAtencion
-difUsuarioJueves = pacientesJueves - capacidadAtencion
-difUsuarioViernes = pacientesViernes - capacidadAtencion
-
-#8) Calcular el promedio de personas que no fueron atendidas.
-excedenteAcumulado = sum([difUsuariosLunes, difUsuarioMartes, difUsuarioMiercoles, difUsuarioJueves, difUsuarioViernes])
-promedioExcedente = excedenteAcumulado / 5
-
-#9) Desborde máximo del servicio
-desbordeMax = max([difUsuariosLunes, difUsuarioMartes, difUsuarioMiercoles, difUsuarioJueves, difUsuarioViernes])
-
-#10) Presentar informe (indicadores solicitados)
-print(f"Promedio de personas sin atender: {promedioExcedente}")
-print(f"Desborde máximo en un día: {desbordeMax}")
-
-
-
-
