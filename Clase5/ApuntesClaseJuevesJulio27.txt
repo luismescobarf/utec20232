@@ -1,0 +1,20 @@
+Sesión Julio 27
+---------------
+- Desarrollo en clase ejercicio de aplicación de conceptos y posible modelo de entregables
+	* Representación de solución mediante Diagramas de Flujo (introducción a esta alternativa)
+	* Implementación de la solución del ejercicio aplicado: salida numérica, salida tipo string (primer uso de string)
+	* Retroalimentación de la solución al ejercicio
+- Tipos de datos booleanos, sentencias declarativas y expresiones booleanas
+	* Proposiciones (sentencias declarativas)
+	* Conectivos lógicos para construir expresiones booleanas
+	* Algunas propiedades del Álgebra Booleana
+- Estructuras de control: condicionales
+	* Operadores relacionales en los lenguajes de programación (Python)
+	* Expresiones booleanas básicas y con conectivos lógicos
+	* Dividiendo el flujo: representación de condicionales mediante diagramas de flujo
+	* Codificando en Python condicionales básicos
+	
+-> Material complementario UniAndes (Tutoriales):
+https://copa-uniandes.github.io/PAD-web-tutorials/Laboratorio-Computacional-de-Analytics/S1%20-%20Bienvenida%2C%20estructuras%20de%20datos%20y%20de%20control/S1.TU1/TUTORIAL%20-%20Bienvenida%20a%20Jupyter%20y%20Python.html#
+
+
