@@ -1,0 +1,16 @@
+Sesión Agosto 1
+---------------
+- Tipos de datos booleanos, sentencias declarativas y expresiones booleanas
+	* Proposiciones (sentencias declarativas)
+	* Conectivos lógicos para construir expresiones booleanas
+	* Algunas propiedades del Álgebra Booleana
+(Solución de enunciados cargados en la clase anterior)
+- Estructuras de control: condicionales
+	* Operadores relacionales en los lenguajes de programación (Python)
+	* Expresiones booleanas básicas y con conectivos lógicos
+	* Dividiendo el flujo: representación de condicionales mediante diagramas de flujo
+	* Codificando en Python condicionales básicos
+- Ejercicios en clase y propuestos de condicionales	
+
+
+
