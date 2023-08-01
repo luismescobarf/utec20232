@@ -10,7 +10,8 @@ Sesión Agosto 1
 	* Expresiones booleanas básicas y con conectivos lógicos
 	* Dividiendo el flujo: representación de condicionales mediante diagramas de flujo
 	* Codificando en Python condicionales básicos
-- Ejercicios en clase y propuestos de condicionales	
+- Ejercicios en clase y propuestos de condicionales
+- Contenedor de variables -> diccionarios
 
 
 
