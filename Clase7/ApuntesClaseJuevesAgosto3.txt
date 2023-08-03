@@ -3,11 +3,12 @@ Sesión Agosto 3
 - Inquietudes ejercicios propuestos sesión anterior de condicionales
 - Estructuras de control complementarias:
 	* elif
-	* try catch
-		- exception
+	* try 
+		- except
 		- Errores específicos
 		- Asociar errores
 		- Mostrar o recuperar el error
+		- Acciones cuando todo está bien (bloque try)
 - Cadenas o strings
 - Contenedor de variables -> diccionarios
 - Reto0, pruebas de caja negra
