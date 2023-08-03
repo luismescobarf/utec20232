@@ -1,0 +1,16 @@
+Sesión Agosto 3
+---------------
+- Inquietudes ejercicios propuestos sesión anterior de condicionales
+- Estructuras de control complementarias:
+	* elif
+	* try catch
+		- exception
+		- Errores específicos
+		- Asociar errores
+		- Mostrar o recuperar el error
+- Cadenas o strings
+- Contenedor de variables -> diccionarios
+- Reto0, pruebas de caja negra
+
+#Enlace repositorio en línea sesión de hoy:
+https://replit.com/join/uongugvgmc-luismescobarf
