@@ -1781,7 +1781,7 @@ intervalo"<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
           <y:Geometry height="55.755478049064465" width="116.10630386243974" x="8305.961114810629" y="211.1471319930592"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="77.6171875" x="19.244558181219872" xml:space="preserve" y="18.811332774532247">opcion == 1<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="77.6171875" x="19.244558181218963" xml:space="preserve" y="18.811332774532218">opcion == 1<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
@@ -1875,7 +1875,7 @@ intervalo"<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
           <y:Geometry height="56.5515768252709" width="134.06848429588445" x="7868.105433914798" y="578.596505800471"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="93.0859375" x="20.491273397941768" xml:space="preserve" y="19.209382162635393">"Salida exitosa"<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="102.94140625" x="15.563539022941768" xml:space="preserve" y="19.209382162635393">"Opción inválida"<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
@@ -1916,7 +1916,7 @@ intervalo"<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
     <node id="n153">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.start2">
-          <y:Geometry height="22.34498471971108" width="30.565957215190792" x="8272.819424790494" y="756.480495567252"/>
+          <y:Geometry height="22.34498471971108" width="30.565957215190792" x="8272.819424790494" y="757.6098812760775"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="13.282978607595396" y="9.172492359855482">
@@ -3152,7 +3152,7 @@ intervalo"<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="8242.0121745551" y="699.3521053777266"/>
+            <y:Point x="8211.528220786327" y="736.2148978509204"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -3165,7 +3165,7 @@ intervalo"<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="8125.905870692659" y="774.680420431644"/>
+            <y:Point x="8125.905870692659" y="768.782373635933"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -3178,7 +3178,7 @@ intervalo"<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="8385.569204650323" y="652.8729322593521"/>
+            <y:Point x="8354.961745629063" y="768.782373635933"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -3190,8 +3190,8 @@ intervalo"<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="8496.157582069904" y="743.6943050193944"/>
+          <y:Path sx="0.0" sy="21.193722685512" tx="0.0" ty="0.0">
+            <y:Point x="8476.963837815812" y="793.1334834943596"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -3204,7 +3204,7 @@ intervalo"<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="8348.70641217713" y="807.8035093206007"/>
+            <y:Point x="8288.10240339809" y="793.1334834943596"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
