@@ -9,6 +9,16 @@ Sesión Agosto 8
 		- Asociar errores
 		- Mostrar o recuperar el error
 		- Acciones cuando todo está bien (bloque try)
+		
+		-> Ejercicio aplicación: Desarrollar una solución que reciba el nombre
+		de dos archivos y determine cuál de los dos tiene más caracteres (largo).
+		Controlar casos alternos donde falle la apertura de cualquiera de los archivos,
+		y revisar si es necesario controlar alguna otra acción.
+		
+		Adicionalmente calcular el promedio de caracteres de ambos archivos, contemplar
+		la posibilidad de que los archivos no tengan caracteres, controlar errores posibles.
+
+
 - Cadenas o strings
 - Contenedor de variables -> diccionarios
 - Reto0, pruebas de caja negra
