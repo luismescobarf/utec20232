@@ -9,11 +9,21 @@ persona = dict()
 persona['nombre'] = 'Manuel' 
 persona['edad'] = 42
 persona['promedio'] = 4.9
+peronsa['estudios'] = { 'colegio':'Otro Colegio',
+                     'profesional': 'UTP',
+                     'especializacion': 'SantiagoChile'
+                     
+        }
 
 persona2 = {
         'nombre' : 'Alejandra',
         'becada' : True,
         'promedio' : 4.8
+        'estudios' : { 'colegio':'Institución',
+                         'profesional': 'UTEC',
+                         'especializacion': 'Montevideo',
+                         'maestria':'UniAndes'
+            }
     }
 
 def procesarPersona(nombre,
