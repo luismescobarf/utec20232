@@ -1,0 +1,13 @@
+Sesión Agosto 10
+----------------
+- Contexto Diccionarios
+- Caso de estudio utilizando diccionarios y condicionales
+	* Pruebas de caja negra
+- Estructuras Iterativas
+	* Ciclo while (mientras)
+	* Ciclo for (para)
+	* Ciclos indefinidos
+	* Sentancia break
+	* Sentencia continue
+	* Camino alterno de la condición de un ciclo
+
