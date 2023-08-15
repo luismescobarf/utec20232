@@ -3,7 +3,7 @@ Sesión Agosto 15
 - Estructuras Iterativas
 	* Ciclo while (mientras)
 	* Ciclo for (para)
-	* Ciclos indefinidos
+	* Ciclos indefinidos (variación while)
 	* Sentancia break
 	* Sentencia continue
 	* Camino alterno de la condición de un ciclo
