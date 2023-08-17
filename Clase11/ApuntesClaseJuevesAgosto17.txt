@@ -1,0 +1,15 @@
+Sesión Agosto 17
+----------------
+- Estructuras Iterativas	
+	* Ciclos indefinidos (variación while)
+	* Sentancia break
+	* Sentencia continue
+	* Camino alterno de la condición de un ciclo
+- Aplicaciones de estructuras iterativas 	-> recorriendo cadenas
+- Listas en Python											
+	* Acceso a la información y recorridos
+	* Anidación de listas para representación (estructuras de datos)
+- Tuplas
+- Conjuntos
+- Diccionarios y archivos JSON
+
