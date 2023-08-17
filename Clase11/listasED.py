@@ -23,7 +23,7 @@ print(animales[2][-1])
 
 #Avisar el tipo de dato de cada elemento de la lista
 for i, elemento in enumerate(animales):
-    if isinstance(elemento, int):
+    if isinstance(elemento, int) and type(elemento) != bool:
         print(f"La posición {i} es de tipo int")
     elif isinstance(elemento, str):
         print(f"La posición {i} es de tipo str")
