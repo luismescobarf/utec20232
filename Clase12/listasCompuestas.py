@@ -1,5 +1,6 @@
 #Importado de librerías
 import random
+import pprint as pp
 
 #Definición de funciones
 def generarEstudiante():
@@ -99,10 +100,38 @@ def generarListadoEstudiantes():
 grupoEstudiantes = generarListadoEstudiantes()
 
 
+# print("-------------------------------")
+# for i,estudiante in enumerate(grupoEstudiantes):
+#     print(f"{i} - {estudiante}")
+# print("-------------------------------")
 
 
-print("-------------------------------")
-for i,estudiante in enumerate(grupoEstudiantes):
-    print(f"{i} - {estudiante}")
-print("-------------------------------")
+#Estudiantes incompletos
+sinCorreo = [   'Estudiante',
+                'SinCorreo',
+                str(),
+                4.5,
+                52
+                ]
+
+sinPromedio = [   'Estudiante',
+                'SinPromedio',
+                'correo@ejemplo.edu',
+                None,
+                62
+                ]
+
+# grupoEstudiantes.append(sinCorreo)
+# grupoEstudiantes.append(sinPromedio)
+
+#print(grupoEstudiantes)
+pp.pprint(grupoEstudiantes)
+
+#Requerimientos:
+#1) Estudiante con mejor nota
+#2) Estudiante con peor nota
+#3) Promedio del grupo de estudiantes
+#4) Estudiantes que pertenecen a UTEC
+
+
 
