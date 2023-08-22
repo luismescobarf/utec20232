@@ -83,12 +83,21 @@ def obtenerEstudianteMejorNota(listadoEntrada):
     idEstudiante = None
     mejorNota = -1
     
-    for i, estudiante in enumerate(listadoEntrada):
-        if estudiante[3] > mejorNota:
+    #Recorrido compacto
+    # for i, estudiante in enumerate(listadoEntrada):
+    #     if estudiante[3] > mejorNota:
+    #         #Quién
+    #         idEstudiante = i
+    #         #Cuánto
+    #         mejorNota = estudiante[3]
+    
+    #Recorrido completamente basado en índices       
+    for i in range(len(listadoEntrada)):
+        if listadoEntrada[i][3] > mejorNota:
             #Quién
             idEstudiante = i
             #Cuánto
-            mejorNota = estudiante[3]
+            mejorNota = listadoEntrada[i][3]
     
     #Cargando en variable de salida el estudiante con la mejor nota
     estudianteBuscado = list(listadoEntrada[idEstudiante])
