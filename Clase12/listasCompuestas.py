@@ -72,7 +72,29 @@ def generarListadoEstudiantes():
         listaEstudiantes.append(estudiante)
     
     return listaEstudiantes
+
+#1) Estudiante con mejor nota
+def obtenerEstudianteMejorNota(listadoEntrada):
     
+    #Preparar contenedor del retorno
+    estudianteBuscado = []
+    
+    #Estado inicial de la incumbente
+    idEstudiante = None
+    mejorNota = -1
+    
+    for i, estudiante in enumerate(listadoEntrada):
+        if estudiante[3] > mejorNota:
+            #Quién
+            idEstudiante = i
+            #Cuánto
+            mejorNota = estudiante[3]
+    
+    #Cargando en variable de salida el estudiante con la mejor nota
+    estudianteBuscado = list(listadoEntrada[idEstudiante])
+    
+    #Retornar el estudiante de interés de la función
+    return estudianteBuscado    
 
 #Representar un listado de estudiantes
 #en listas computestas.
@@ -132,6 +154,16 @@ pp.pprint(grupoEstudiantes)
 #2) Estudiante con peor nota
 #3) Promedio del grupo de estudiantes
 #4) Estudiantes que pertenecen a UTEC
+
+
+#1) Solución
+print()
+print("1) Estudiante con Mejor Nota:")
+print(obtenerEstudianteMejorNota(grupoEstudiantes))
+print()
+
+
+
 
 
 
