@@ -1,0 +1,19 @@
+Sesión Agosto 22
+----------------
+- Listas en Python											
+	* Acceso a la información y recorridos
+	* Anidación de listas para representación (estructuras de datos predeterminadas)
+	
+- Recorriendo estructuras de datos predeterminadas
+	* Tuplas
+	* Conjuntos
+	* Conuntos
+	
+- Archivos de texto plano (lectura y escritura)
+
+- Diccionarios y archivos JSON
+
+- Combinando estructuras de datos para resolver de forma más ajustada requerimientos
+
+- Recordatorio enlace grabaciones previas:
+https://drive.google.com/drive/u/2/folders/1pyhQ_RE5HxtUZVUVL1I3fz48N9JKgJEK
