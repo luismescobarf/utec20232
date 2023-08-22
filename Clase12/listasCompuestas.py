@@ -147,6 +147,26 @@ def obtenerPromedioGrupoEstudiantes(listadoEntrada):
     #Retornar el promedio
     return promedio 
 
+#4) Estudiantes que pertenecen a UTEC
+def filtrarEstudiantesUTEC(listadoEntrada):
+    
+    #Inicializar subconjunto estudiantes
+    estudiantesUTEC = []
+    
+    # #Recorrer todos los estudiantes para filtrar
+    # for estudiante in listadoEntrada:
+    #     partesCorreo = estudiante[2].split('@')
+    #     if partesCorreo[1] == 'utec.edu.ur':
+    #         estudiantesUTEC.append(estudiante)
+            
+    #Recorrer todos los estudiantes para filtrar
+    for estudiante in listadoEntrada:        
+        if 'utec' in estudiante[2]:
+            estudiantesUTEC.append(estudiante)
+    
+    #Retornar el listado
+    return estudiantesUTEC
+
 
 #Representar un listado de estudiantes
 #en listas computestas.
@@ -225,6 +245,12 @@ print()
 print()
 print("3) Promedio de edad del grupo de estudiantes")
 print(obtenerPromedioGrupoEstudiantes(grupoEstudiantes))
+print()
+
+#4) Solución
+print()
+print("4) Estudiantes que pertenecen a UTEC")
+pp.pprint(filtrarEstudiantesUTEC(grupoEstudiantes))
 print()
 
 
