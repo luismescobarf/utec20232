@@ -130,6 +130,23 @@ def obtenerEstudiantePeorNota(listadoEntrada):
     #Retornar el estudiante de interés de la función
     return estudianteBuscado 
 
+#3) Promedio de edad del grupo de estudiantes
+def obtenerPromedioGrupoEstudiantes(listadoEntrada):
+    
+    #Inicializar el promedio
+    promedio = float()
+    
+    #Extraer columna de promedios
+    columnaPromedios = []    
+    for estudiante in listadoEntrada:
+        columnaPromedios.append(estudiante[4])   
+       
+    #Calcular promedio
+    promedio = int(sum(columnaPromedios) / len(columnaPromedios)) 
+       
+    #Retornar el promedio
+    return promedio 
+
 
 #Representar un listado de estudiantes
 #en listas computestas.
@@ -187,7 +204,7 @@ pp.pprint(grupoEstudiantes)
 #Requerimientos:
 #1) Estudiante con mejor nota
 #2) Estudiante con peor nota
-#3) Promedio del grupo de estudiantes
+#3) Promedio de edad del grupo de estudiantes
 #4) Estudiantes que pertenecen a UTEC
 
 print("^^^^^^^^^^^^^^^^^^^^^^^^")
@@ -203,6 +220,14 @@ print()
 print("2) Estudiante con Peor Nota:")
 print(obtenerEstudiantePeorNota(grupoEstudiantes))
 print()
+
+#3) Solución
+print()
+print("3) Promedio de edad del grupo de estudiantes")
+print(obtenerPromedioGrupoEstudiantes(grupoEstudiantes))
+print()
+
+
 
 
 
