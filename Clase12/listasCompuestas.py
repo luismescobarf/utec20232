@@ -103,7 +103,33 @@ def obtenerEstudianteMejorNota(listadoEntrada):
     estudianteBuscado = list(listadoEntrada[idEstudiante])
     
     #Retornar el estudiante de interés de la función
-    return estudianteBuscado    
+    return estudianteBuscado 
+
+
+#2) Estudiante con peor nota
+def obtenerEstudiantePeorNota(listadoEntrada):
+    
+    #Preparar contenedor del retorno
+    estudianteBuscado = []
+    
+    #Estado inicial de la incumbente
+    idEstudiante = None
+    peorNota = 999    
+    
+    #Recorrido completamente basado en índices       
+    for i in range(len(listadoEntrada)):
+        if listadoEntrada[i][3] < peorNota:
+            #Quién
+            idEstudiante = i
+            #Cuánto
+            peorNota = listadoEntrada[i][3]
+    
+    #Cargando en variable de salida el estudiante con la peor nota
+    estudianteBuscado = list(listadoEntrada[idEstudiante])
+    
+    #Retornar el estudiante de interés de la función
+    return estudianteBuscado 
+
 
 #Representar un listado de estudiantes
 #en listas computestas.
@@ -164,11 +190,18 @@ pp.pprint(grupoEstudiantes)
 #3) Promedio del grupo de estudiantes
 #4) Estudiantes que pertenecen a UTEC
 
+print("^^^^^^^^^^^^^^^^^^^^^^^^")
 
 #1) Solución
 print()
 print("1) Estudiante con Mejor Nota:")
 print(obtenerEstudianteMejorNota(grupoEstudiantes))
+print()
+
+#2) Solución
+print()
+print("2) Estudiante con Peor Nota:")
+print(obtenerEstudiantePeorNota(grupoEstudiantes))
 print()
 
 
