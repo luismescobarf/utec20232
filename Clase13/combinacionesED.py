@@ -1,6 +1,7 @@
 #Importado de librerías
 import random
 import pprint as pp
+import listasCompuestas as glc
 
 diccionarioEstudiantes = {
     
@@ -21,7 +22,8 @@ diccionarioEstudiantes = {
         'apellido': 'Dole',
         'notas': [2.8,3.0,1.1],
         'seguroInternacional': 'Mapfre'
-    }    
+    },
+        
     
 }
 
@@ -68,5 +70,47 @@ for i, tuplaEstudiante in enumerate(coleccionItems):
     codigo = tuplaEstudiante[0]
     estudiante = tuplaEstudiante[1]
     print(f"Info Tupla -> {codigo} | {estudiante}")
+    
+#Convertir el diccionario de diccionarios de estudiantes
+#en una lista de diccionarios para mantener el orden
+#en caso de que se necesite por algún criterio, sin
+#embargo no queremos perder el código del estudiante,
+#manteniendo la estructura tipo diccionario para el estudiante
+
+listaEstudiantes = list()
+for codEstudiante, estudiante in diccionarioEstudiantes.items():
+    estudiante['codigoEstudiante'] = codEstudiante
+    listaEstudiantes.append(estudiante)
+print("------------------------")
+pp.pprint(listaEstudiantes)
+print("------------------------")
+
+#Generar base de datos de estudiantes y convertirla a
+#una lista de diccionarios de estudiantes, para tener
+#un acceso más claro a los atributos de estos
+listaCompuestaEstudiantes = glc.generarListadoEstudiantes()
+print("------------------------")
+pp.pprint(listaCompuestaEstudiantes)
+print("------------------------")
+
+bdEstudiantes = list()
+
+for i in range(len(listaCompuestaEstudiantes)):
+    estudianteTemp = dict()
+    estudianteTemp['nombre'] = listaCompuestaEstudiantes[i][0]
+    estudianteTemp['apellido'] = listaCompuestaEstudiantes[i][1]
+    estudianteTemp['email'] = listaCompuestaEstudiantes[i][2]
+    estudianteTemp['promedio'] = listaCompuestaEstudiantes[i][3]
+    estudianteTemp['edad'] = listaCompuestaEstudiantes[i][4]
+    bdEstudiantes.append(estudianteTemp)
+
+print("------------------------")
+pp.pprint(bdEstudiantes)
+print("------------------------")
+
+
+
+
+
 
 
