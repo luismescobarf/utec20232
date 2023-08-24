@@ -53,7 +53,20 @@ for estudiante in diccionarioEstudiantes.values():
 print("------------------------")
 
 
-
 #3) Necesito los items -> parejas llave,valor
+coleccionItems = list(diccionarioEstudiantes.items())
+pp.pprint(coleccionItems)
+
+print("------------------------")
+for codigo,estudiante in diccionarioEstudiantes.items():
+    print(f"Cod Estudiante -> {codigo}")
+    print(f"Info Estudiante -> {estudiante}")
+print("------------------------")
+
+#Utilizar la información en la lista de ítems del diccionario
+for i, tuplaEstudiante in enumerate(coleccionItems):
+    codigo = tuplaEstudiante[0]
+    estudiante = tuplaEstudiante[1]
+    print(f"Info Tupla -> {codigo} | {estudiante}")
 
 
