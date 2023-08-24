@@ -108,6 +108,21 @@ print("------------------------")
 pp.pprint(bdEstudiantes)
 print("------------------------")
 
+#Requerimiento -> conocer cuántas edades diferentes
+#fueron registradas en la base de datos de estudiantes
+conjuntoEdades = set()
+for estudiante in bdEstudiantes:
+    conjuntoEdades.add(estudiante['edad'])
+print("------------------------")
+print(conjuntoEdades)
+numeroEdadesRepetidas = len(bdEstudiantes) - len(conjuntoEdades) 
+print(f"Edades repetidas -> {numeroEdadesRepetidas}")
+print("------------------------")
+
+
+
+
+
 
 
 
