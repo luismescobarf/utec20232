@@ -119,6 +119,35 @@ numeroEdadesRepetidas = len(bdEstudiantes) - len(conjuntoEdades)
 print(f"Edades repetidas -> {numeroEdadesRepetidas}")
 print("------------------------")
 
+#Requerimiento -> ordenar los estudiantes (lista) 
+#según su promedio (de mayor a menor)
+def criterioOrdenamiento(estudiante):
+    
+    #Cubrir otros tipos de datos
+    if not(isinstance(estudiante['promedio'],float) or isinstance(estudiante['promedio'],int)):
+        return 0
+    else:    
+        #Seleccionando el atributo
+        atributoInteres = estudiante['promedio']
+        #Retornando para entregárselo al algoritmo de ordenamiento
+        return atributoInteres
+
+bdEstudiantes.sort(reverse=True,key=criterioOrdenamiento)
+print("------------------------")
+pp.pprint(bdEstudiantes)
+print("------------------------")
+
+#Ordenar por edad
+# def criterioEdad(estudiante):
+#     return estudiante['edad']
+# criterioEdad = lambda x : x['edad']
+
+bdEstudiantes.sort(key = lambda x : x['edad']  )
+print("------------------------")
+pp.pprint(bdEstudiantes)
+print("------------------------")
+
+
 
 
 
