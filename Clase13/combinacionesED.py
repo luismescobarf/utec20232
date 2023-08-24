@@ -45,6 +45,15 @@ print("------------------------")
 
 
 #2) Obtener los valores
+coleccionValores = tuple(diccionarioEstudiantes.values())
+pp.pprint(coleccionValores)
+print("------------------------")
+for estudiante in diccionarioEstudiantes.values():
+    print(f"Estudiante -> {estudiante}")
+print("------------------------")
+
+
+
 #3) Necesito los items -> parejas llave,valor
 
 
