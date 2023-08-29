@@ -27,22 +27,39 @@ nodos.append({'Nombre':'E','x':11,'y':-2})
  
 #  ]
 
-#Estructura de datos con el cálculo de las distancias
+# #Estructura de datos con el cálculo de las distancias
+# #Esta información se calcula y no quiero que se modifique
+# conexiones = []
+# for i in range(len(nodos)):
+#     for j in range(len(nodos)):
+#         #Nodos diferentes (prevenir conexiones a un mismo nodo)
+#         if i != j:
+#             conexiones.append(  #Inicio de la tupla que será coleccionada en las conexiones
+#                                 (nodos[i]['Nombre'],
+#                                  nodos[j]['Nombre'],
+#                                  distanciaEuclidiana(
+#                                     (nodos[i]['x'],nodos[i]['y']),
+#                                     (nodos[j]['x'],nodos[j]['y'])
+#                                  )
+#                                 )#Final de la tupla por cada conexión
+#                               )#Final del append que acumula en el listado de conexiones
+            
+#Estructura de datos con el cálculo de las distancias (diccionario)
 #Esta información se calcula y no quiero que se modifique
-conexiones = []
+conexiones = dict()
 for i in range(len(nodos)):
     for j in range(len(nodos)):
         #Nodos diferentes (prevenir conexiones a un mismo nodo)
         if i != j:
-            conexiones.append(  #Inicio de la tupla que será coleccionada en las conexiones
-                                (nodos[i]['Nombre'],
-                                 nodos[j]['Nombre'],
-                                 distanciaEuclidiana(
-                                    (nodos[i]['x'],nodos[i]['y']),
-                                    (nodos[j]['x'],nodos[j]['y'])
-                                 )
+            conexiones[ nodos[i]['Nombre'] + '-' + nodos[j]['Nombre'] ] = (
+                                    nodos[i]['Nombre'],
+                                    nodos[j]['Nombre'],
+                                    distanciaEuclidiana(
+                                        (nodos[i]['x'],nodos[i]['y']),
+                                        (nodos[j]['x'],nodos[j]['y'])
+                                    )
                                 )#Final de la tupla por cada conexión
-                              )#Final del append que acumula en el listado de conexiones
+                              
 
             
         
