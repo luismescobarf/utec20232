@@ -1,0 +1,12 @@
+Sesión Agosto 24
+----------------
+
+- Combinando estructuras de datos para resolver de forma más ajustada requerimientos
+	* Aplicaciones reutilizando generador modular de la sesión anterior
+	* Requerimientos sobre ese set de datos y conversiones del mismo
+	* Caso de estudio puntos en el plano cartesiano
+		
+- Archivos de texto plano (lectura y escritura)
+
+- Diccionarios y archivos JSON
+
