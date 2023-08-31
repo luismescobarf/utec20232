@@ -1,7 +1,9 @@
 Sesión Agosto 31
 ----------------
 
-- Segundo caso de estudio manejando estructuras de datos
+- Revisión caso TSP -> Metodología del vecino más cercano
+
+- Segundo caso de estudio utilizando diferentes estructuras de datos
 
 - Archivos de texto plano (lectura y escritura)
 
