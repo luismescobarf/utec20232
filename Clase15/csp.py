@@ -59,4 +59,30 @@ coleccionServicios = [
 ]
 
 #Inicializar cuadro de turnos -> Lista (también podría ser un diccionario)
-            
+cuadroTurnos = list()
+
+#Esquema de un turno
+# turno = dict()
+# turno['duracion'] = sumatoriaServicios
+# turno['listadoServicios'] = [
+#                                 {'duracion': 171, 
+#                                  't0': 430, 
+#                                  'tf': 601
+#                                  },
+#                                 {'duracion': 116, 
+#                                  't0': 700, 
+#                                  'tf': 816
+#                                  }
+#                             ]
+
+
+#Acomodar cada uno de los turnos
+#Concurrent scheduler
+
+
+
+
+
+
+
+    
