@@ -1,0 +1,14 @@
+Sesión Agosto 31
+----------------
+
+- Segundo caso de estudio manejando estructuras de datos
+
+- Archivos de texto plano (lectura y escritura)
+
+- Diccionarios y archivos JSON
+
+- Archivos y Estructuras de Datos Aplicado -> Caso Uruguay
+
+- Conversión de contenedores
+
+- Paradigma Funcional y List Comprehension
