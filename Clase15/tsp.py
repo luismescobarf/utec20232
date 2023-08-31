@@ -149,6 +149,7 @@ nodos.append({'Nombre':'B','x':10,'y':10})
 nodos.append({'Nombre':'C','x':-10,'y':-3})
 nodos.append({'Nombre':'D','x':-5,'y':8})
 nodos.append({'Nombre':'E','x':11,'y':-2})
+nodos.append({'Nombre':'Z','x':13,'y':5})
 
 
 # #Construir ED
