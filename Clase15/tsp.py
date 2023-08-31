@@ -14,17 +14,131 @@ def traducirNombreIndice(nombrePunto,nodos):
 #Función para calcular distancia total de una ruta
 def calcularDistancia(ruta,nodos,conexiones):
     distanciaTotal = 0
-    for i in range(len(nodos)-1): 
-        nombrePartida = nodos[ i ]['Nombre']
-        nombreLlegada = nodos[ i+1 ]['Nombre']
+    strRuta = str()
+    for i in range(len(ruta)-1): 
+        nombrePartida = nodos[ ruta[i] ]['Nombre']
+        nombreLlegada = nodos[ ruta[i+1] ]['Nombre']
         nombreConexion = nombrePartida + '-' + nombreLlegada
         
-        #Salida de diagnóstico
-        print("->",nombreConexion)
+        # #Salida de diagnóstico
+        # print("->",nombreConexion)
+        
+        #Acumular la conexión con las etiquetas originales
+        strRuta += " ->"+nombreConexion
         
         distanciaTotal += conexiones[nombreConexion][2]
-    return distanciaTotal    
     
+    return distanciaTotal,strRuta    
+
+#Algoritmo para encontrar el recorrido para el TSP
+#Vecino más cercano NN Nearest Neigborgh
+def heuristicaNN(nodos,conexiones):
+
+    #Esquema de una solución (incumbente)
+    incumbente = {
+        'nodoPartida': str(),
+        'funcionObjetivo' : 99999,
+        'ruta': [],
+        'strRuta': str()
+    }
+    #Colección de soluciones
+    solucionesGeneradas = list()
+    
+    #Multiarranque al algoritmo de vecino más cercano
+    for ii in range(len(nodos)): 
+    
+        #Establecer estructuras de control de los nodos que han sido cubiertos y los que no
+        nodosCubiertos = set()
+        nodosPendientes = set()
+        for i in range(len(nodos)):
+            nodosPendientes.add(i)  
+        
+            
+        #Inicialización -> Nodo ii
+        nodoInicial = ii
+        ruta = [nodoInicial]
+        #Cubrir nodo inicial
+        nodosCubiertos.add(nodoInicial)
+        #Quitar el nodo inicial de los pendientes
+        nodosPendientes.remove(nodoInicial)
+        
+        #Ciclo general del algoritmo
+        while nodosPendientes != set():
+        #while len(nodosPendientes) > 0:
+            
+            #Último nodo cubierto -> Nodo actual
+            nodoActual = ruta[-1]
+            
+            #Colección de conexiones a nodos que salen del actual
+            #Debe ser una lista porque vamos a ordenar
+            salidas = []
+            
+            #Selección de conexiones
+            for llave, infoConexion in conexiones.items():
+                
+                #Condiciones del filtrado
+                #1) Todas las que están conectadas al nodo actual
+                nombreNodoActual = nodos[nodoActual]['Nombre']
+                puntoPartida = llave.split('-')[0]
+                cond1 = nombreNodoActual == puntoPartida        
+                
+                #2) Además se debe cumplir que el nodo final esté en los pendientes
+                puntoTerminal = llave.split('-')[-1]
+                # for i,nodo in enumerate(nodos):
+                #     if puntoTerminal == nodo['Nombre']:
+                #         puntoTerminal = i
+                #         break  
+                puntoTerminal = traducirNombreIndice(puntoTerminal,nodos)
+                        
+                cond2 = puntoTerminal in nodosPendientes
+                
+                #Si se cumplen ambas condiciones entonces es una salida candidata
+                if cond1 and cond2:
+                    salidas.append(infoConexion)
+                
+            #Seleccionar la mejor salida
+            salidas.sort(key= lambda salida : salida[2] )
+            indiceNodoSalida = traducirNombreIndice(salidas[0][1], nodos)    
+            ruta.append(indiceNodoSalida)
+            nodosCubiertos.add(indiceNodoSalida)
+            nodosPendientes.remove(indiceNodoSalida)
+        
+        #Completar la ruta
+        ruta.append(nodoInicial)
+        distanciaTotal, strRuta = calcularDistancia(ruta,nodos,conexiones)
+        
+        #Acumular la solución
+        solucion = {
+            'nodoPartida': nodos[ ruta[0] ]['Nombre'],
+            'funcionObjetivo' : distanciaTotal,
+            'ruta': ruta,
+            'strRuta': strRuta
+        }
+        solucionesGeneradas.append(solucion)
+        
+        #Actulizar la incumbente
+        if incumbente['funcionObjetivo'] > solucion['funcionObjetivo']:
+            incumbente = solucion    
+        
+        #Salida en cada iteración
+        #print(f"Ruta: {ruta} Distancia: {distanciaTotal}")
+        
+        
+    return solucionesGeneradas, incumbente
+
+#Algoritmo para encontrar el recorrido para el TSP
+#Inserción más cercana nearest insertion
+def heuristicaInsercionCercana(nodos,conexiones):
+    pass
+
+#Algoritmo para encontrar el recorrido para el TSP
+#Inserción más lejana 
+def heuristicaInsercionLejana(nodos,conexiones):
+    pass
+   
+    
+#Sección principal
+##################
 
 #Represntar red
 nodos = [] #Permite asociar un id a cada uno de los elementos
@@ -80,70 +194,26 @@ for i in range(len(nodos)):
                                         (nodos[j]['x'],nodos[j]['y'])
                                     )
                                 )#Final de la tupla por cada conexión
-                              
-#Algoritmo para encontrar el recorrido para el TSP
-#Vecino más cercano NN Nearest Neigborgh
 
-#Establecer estructuras de control de los nodos que han sido cubiertos y los que no
-nodosCubiertos = set()
-nodosPendientes = set()
-for i in range(len(nodos)):
-    nodosPendientes.add(i)  
 
-    
-#Inicialización -> Nodo 0
-nodoInicial = 4
-ruta = [nodoInicial]
-#Cubrir nodo inicial
-nodosCubiertos.add(nodoInicial)
-#Quitar el nodo inicial de los pendientes
-nodosPendientes.remove(nodoInicial)
+#Comparación de heurísticas
+#--------------------------
 
-#Ciclo general del algoritmo
-while nodosPendientes != set():
-#while len(nodosPendientes) > 0:
-    
-    #Último nodo cubierto -> Nodo actual
-    nodoActual = ruta[-1]
-    
-    #Colección de conexiones a nodos que salen del actual
-    #Debe ser una lista porque vamos a ordenar
-    salidas = []
-    
-    #Selección de conexiones
-    for llave, infoConexion in conexiones.items():
-        
-        #Condiciones del filtrado
-        #1) Todas las que están conectadas al nodo actual
-        nombreNodoActual = nodos[nodoActual]['Nombre']
-        puntoPartida = llave.split('-')[0]
-        cond1 = nombreNodoActual == puntoPartida        
-        
-        #2) Además se debe cumplir que el nodo final esté en los pendientes
-        puntoTerminal = llave.split('-')[-1]
-        # for i,nodo in enumerate(nodos):
-        #     if puntoTerminal == nodo['Nombre']:
-        #         puntoTerminal = i
-        #         break  
-        puntoTerminal = traducirNombreIndice(puntoTerminal,nodos)
-                
-        cond2 = puntoTerminal in nodosPendientes
-        
-        #Si se cumplen ambas condiciones entonces es una salida candidata
-        if cond1 and cond2:
-            salidas.append(infoConexion)
-        
-    #Seleccionar la mejor salida
-    salidas.sort(key= lambda salida : salida[2] )
-    indiceNodoSalida = traducirNombreIndice(salidas[0][1], nodos)    
-    ruta.append(indiceNodoSalida)
-    nodosCubiertos.add(indiceNodoSalida)
-    nodosPendientes.remove(indiceNodoSalida)
+print("---->Vecino Más Cercano")
+solucionesGeneradas, incumbente = heuristicaNN(nodos, conexiones)
 
-#Completar la ruta
-ruta.append(nodoInicial)
-distanciaTotal = calcularDistancia(ruta,nodos,conexiones)
-print(f"Ruta: {ruta} Distancia: {distanciaTotal}")
+#Después de completar el multiarranque visualizar las soluciones generadas
+pp.pprint(solucionesGeneradas)
+
+#Mostrar la incumbente de todo el proceso
+print("************************************")
+pp.pprint(incumbente)
+
+#.
+#.
+#.
+    
+
 
     
     

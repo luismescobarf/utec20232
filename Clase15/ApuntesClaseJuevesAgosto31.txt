@@ -2,6 +2,9 @@ Sesión Agosto 31
 ----------------
 
 - Revisión caso TSP -> Metodología del vecino más cercano
+	* Heurísticas (siguen el sentido común)
+		- Inserción más cercana
+		- Inserción más lejana
 
 - Segundo caso de estudio (Scheduling) utilizando diferentes estructuras de datos
 
