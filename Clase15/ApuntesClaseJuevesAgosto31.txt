@@ -3,7 +3,7 @@ Sesión Agosto 31
 
 - Revisión caso TSP -> Metodología del vecino más cercano
 
-- Segundo caso de estudio utilizando diferentes estructuras de datos
+- Segundo caso de estudio (Scheduling) utilizando diferentes estructuras de datos
 
 - Archivos de texto plano (lectura y escritura)
 
