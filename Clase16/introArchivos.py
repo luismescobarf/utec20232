@@ -4,17 +4,16 @@ import pprint as pp
 
 #Definición de funciones
 def generarCasoCSP():
-    coleccionServicios = list()
+    coleccionServicios = []
     
     #Generación aleatoria de servicios
-    numeroServicios = 5
+    numeroServicios = 20
     cuatroAM = 240 #Minutos
     diezPM = 1320 #Minutos
     for i in range(numeroServicios):
-        t0 = random.randint(cuatroAM,diezPM)
-        tf = int()
+        t0 = random.randint(cuatroAM,diezPM-16)
         while True:
-            tf = random.randint(cuatroAM,diezPM)
+            tf = random.randint(t0,diezPM)
             if tf > t0 and tf-t0 <= 180 and tf-t0 > 15:
                 servicio = {
                     'codigo': i,
