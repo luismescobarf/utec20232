@@ -60,6 +60,27 @@ with open(rutaArchivo,"w") as f:
 
 print("Instrucciones posteriores al cierre del archivo")
 
+#Lectura del archivo generado
+coleccionDesdeArchivo = list()
+rutaRecurso = "recursos/loteServicios.txt"
+with open(rutaRecurso,"r") as f:
+    for linea in f.readlines():
+        linea = linea.strip()
+        registro = linea.split(" ")
+        servicio = {
+                'codigo': int(registro[0]), 
+                'duracion': int(registro[1]),  
+                't0': int(registro[2]), 
+                'tf': int(registro[3]) 
+        }
+        coleccionDesdeArchivo.append(servicio)
+
+print("Contenido cargado desde el archivo:")
+pp.pprint(coleccionDesdeArchivo)
+        
+        
+    
+
 
 
 
