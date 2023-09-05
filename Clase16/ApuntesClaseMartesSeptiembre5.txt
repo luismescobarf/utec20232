@@ -2,6 +2,8 @@ Sesión Septiembre 5
 --------------------
 
 - Segundo caso de estudio (Scheduling) utilizando diferentes estructuras de datos
+	* Concurrent Scheduler (versión reducida)
+	* Propuesto para trabajo autónomo ->  concurrent scheduler completo
 
 - Archivos de texto plano (lectura y escritura)
 
