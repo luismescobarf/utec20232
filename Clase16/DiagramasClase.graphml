@@ -1945,7 +1945,7 @@ intervalo"<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
       <data key="d4" xml:space="preserve"/>
       <data key="d6">
         <y:UMLNoteNode>
-          <y:Geometry height="89.09364648606606" width="76.35868542255957" x="9502.034291318761" y="182.103596928221"/>
+          <y:Geometry height="89.09364648606606" width="76.35868542255957" x="9469.732290248987" y="188.96300007995313"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="47.833984375" x="14.262350523780697" xml:space="preserve" y="35.48041699303303">Archivo<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -1955,7 +1955,7 @@ intervalo"<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
     <node id="n156">
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="80.65251652356963" width="52.911102193404076" x="9525.481874547917" y="51.86351328886134"/>
+          <y:Geometry height="80.65251652356963" width="52.911102193404076" x="9456.411495589504" y="-73.62175701261484"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="24.455551096702038" y="84.65251652356964">
@@ -1997,10 +1997,10 @@ intervalo"<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
     <node id="n158">
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="41.72100067138672" width="41.71900177001953" x="9483.762872777897" y="-19.857487382525377"/>
+          <y:Geometry height="53.6296866986994" width="52.911102193404076" x="9502.034291318761" y="83.748081055095"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="18.859500885009766" y="45.72100067138672">
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="24.455551096702038" y="57.62968669869939">
             <y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -2872,7 +2872,7 @@ AA32 -&gt; 'animal'
           <y:Geometry height="30.0" width="30.0" x="10154.838459454762" y="477.554312254873"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="30.77734375" x="-0.388671875" xml:space="preserve" y="5.933593749999972">(0,0)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="30.77734375" x="-0.388671875" xml:space="preserve" y="5.93359375">(0,0)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -2982,7 +2982,7 @@ AA32 -&gt; 'animal'
           <y:Geometry height="30.0" width="30.0" x="10561.98727898463" y="477.55431225487297"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="30.77734375" x="-0.388671875" xml:space="preserve" y="5.933593749999943">(0,0)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="30.77734375" x="-0.388671875" xml:space="preserve" y="5.93359375">(0,0)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -3334,7 +3334,7 @@ AA32 -&gt; 'animal'
           <y:Geometry height="30.0" width="30.0" x="11506.74959432059" y="495.5291367638268"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="45.953125" x="-7.9765625" xml:space="preserve" y="5.93359375">(10,10)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="45.953125" x="-7.9765625" xml:space="preserve" y="5.933593749999943">(10,10)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -3664,7 +3664,7 @@ AA32 -&gt; 'animal'
           <y:Geometry height="30.0" width="30.0" x="10162.710114995501" y="-33.74597084230217"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="30.77734375" x="-0.388671875" xml:space="preserve" y="5.933593749999972">(0,0)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="30.77734375" x="-0.388671875" xml:space="preserve" y="5.93359375">(0,0)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -3901,7 +3901,6 @@ AA32 -&gt; 'animal'
       </data>
     </node>
     <node id="n330">
-      <data key="d5"/>
       <data key="d6">
         <y:SVGNode>
           <y:Geometry height="66.76200103759766" width="56.554100036621094" x="13477.932281318721" y="229.71017864196915"/>
@@ -3923,7 +3922,6 @@ AA32 -&gt; 'animal'
       </data>
     </node>
     <node id="n331">
-      <data key="d5"/>
       <data key="d6">
         <y:SVGNode>
           <y:Geometry height="69.94900512695312" width="56.554100036621094" x="13477.932281318721" y="349.01914885677576"/>
@@ -3945,13 +3943,12 @@ AA32 -&gt; 'animal'
       </data>
     </node>
     <node id="n332">
-      <data key="d5"/>
       <data key="d6">
         <y:SVGNode>
           <y:Geometry height="66.76200103759766" width="56.554100036621094" x="13477.932281318721" y="464.6466427270636"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="26.277050018310547" y="70.7620010375976">
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="26.277050018310547" y="70.76200103759771">
             <y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -3967,7 +3964,6 @@ AA32 -&gt; 'animal'
       </data>
     </node>
     <node id="n333">
-      <data key="d5"/>
       <data key="d6">
         <y:SVGNode>
           <y:Geometry height="62.3191032409668" width="56.554100036621094" x="13477.932281318723" y="594.9870701496459"/>
@@ -3989,12 +3985,11 @@ AA32 -&gt; 'animal'
       </data>
     </node>
     <node id="n334">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="98.11897852426694" width="116.61703502837918" x="13361.315246290342" y="199.05948926213296"/>
           <y:Fill hasColor="false" transparent="false"/>
-          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:BorderStyle color="#99CC00" raised="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="126.162109375" x="-4.772537173310411" xml:space="preserve" y="32.92667676213347">- duración
 - listado de servicios<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:Shape type="rectangle"/>
@@ -4013,7 +4008,6 @@ AA32 -&gt; 'animal'
       </data>
     </node>
     <node id="n336">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="98.11897852426694" width="99.27353748230598" x="13361.315246290342" y="327.1784677863999"/>
@@ -4043,7 +4037,6 @@ AA32 -&gt; 'animal'
       </data>
     </node>
     <node id="n338">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="98.11897852426694" width="99.27353748230598" x="13361.315246290342" y="448.9681539837289"/>
@@ -4073,13 +4066,12 @@ AA32 -&gt; 'animal'
       </data>
     </node>
     <node id="n340">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="98.11897852426694" width="99.27353748230598" x="13361.315246290342" y="577.0871325079959"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="47.63676874115299" y="47.05948926213347">
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="47.63676874115299" y="47.05948926213341">
             <y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -4103,7 +4095,6 @@ AA32 -&gt; 'animal'
       </data>
     </node>
     <node id="n342">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="115.89918647805825" x="13048.24354443629" y="214.88250685995843"/>
@@ -4126,7 +4117,6 @@ AA32 -&gt; 'animal'
       </data>
     </node>
     <node id="n344">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="115.89918647805825" x="13048.24354443629" y="260.1383290824674"/>
@@ -4138,7 +4128,6 @@ AA32 -&gt; 'animal'
       </data>
     </node>
     <node id="n345">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="115.89918647805825" x="13048.24354443629" y="300.09667095514703"/>
@@ -4150,7 +4139,6 @@ AA32 -&gt; 'animal'
       </data>
     </node>
     <node id="n346">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="115.89918647805825" x="13048.24354443629" y="340.05501282782666"/>
@@ -4162,7 +4150,6 @@ AA32 -&gt; 'animal'
       </data>
     </node>
     <node id="n347">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="115.89918647805825" x="13048.24354443629" y="380.0133547005063"/>
@@ -4174,7 +4161,6 @@ AA32 -&gt; 'animal'
       </data>
     </node>
     <node id="n348">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="115.89918647805825" x="13048.24354443629" y="427.21210688995706"/>
@@ -4186,7 +4172,6 @@ AA32 -&gt; 'animal'
       </data>
     </node>
     <node id="n349">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="115.89918647805825" x="13048.24354443629" y="467.1704487626366"/>
@@ -4198,7 +4183,6 @@ AA32 -&gt; 'animal'
       </data>
     </node>
     <node id="n350">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="115.89918647805825" x="13048.24354443629" y="507.12879063531625"/>
@@ -4210,7 +4194,6 @@ AA32 -&gt; 'animal'
       </data>
     </node>
     <node id="n351">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="115.89918647805825" x="13048.24354443629" y="547.0871325079959"/>
@@ -4222,7 +4205,6 @@ AA32 -&gt; 'animal'
       </data>
     </node>
     <node id="n352">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="115.89918647805825" x="13048.24354443629" y="587.0454743806755"/>
@@ -4234,13 +4216,12 @@ AA32 -&gt; 'animal'
       </data>
     </node>
     <node id="n353">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="513.4523210292886" width="225.81319928331686" x="13327.184988698373" y="169.0594892621329"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="dashed" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="110.90659964165934" y="254.72616051464428">
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="110.90659964165752" y="254.72616051464428">
             <y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -4261,6 +4242,73 @@ AA32 -&gt; 'animal'
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="108.923828125" x="-39.4619140625" xml:space="preserve" y="5.93359375">Cuadro de Turnos<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n355">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="98.11897852426694" width="116.61703502837918" x="13170.927782039405" y="77.67181363361198"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle color="#99CC00" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="126.162109375" x="-4.772537173310411" xml:space="preserve" y="32.92667676213347">- duración
+- listado de servicios<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n356">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="13205.564550780558" y="47.671813633611976"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="165.162109375" x="-67.5810546875" xml:space="preserve" y="5.93359375">Turno Parcial Inicial -&gt; 480<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n357">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="98.11897852426694" width="116.61703502837918" x="13189.077393533995" y="214.88250685995843"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="126.162109375" x="-4.772537173310411" xml:space="preserve" y="32.92667676213347">- duración
+- listado de servicios<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n358">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="13223.714162275148" y="184.88250685995843"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="171.455078125" x="-70.7275390625" xml:space="preserve" y="5.93359375">Nuevo Turno Parcial  -&gt; 480<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n359">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="89.09364648606604" width="95.27669696421435" x="9620.630693595076" y="163.31765005753914"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="45.638348482107176" y="93.09364648606606">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="-0.5" nodeRatioX="0.0" nodeRatioY="0.5" offsetX="0.0" offsetY="4.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="1"/>
+          </y:SVGModel>
+        </y:SVGNode>
       </data>
     </node>
     <edge id="e0" source="n9" target="n8">
@@ -5532,7 +5580,9 @@ AA32 -&gt; 'animal'
     <edge id="e117" source="n157" target="n155">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="9452.219377532598" y="177.41918055455858"/>
+          </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="false"/>
@@ -5892,7 +5942,6 @@ AA32 -&gt; 'animal'
       </data>
     </edge>
     <edge id="e152" source="n243" target="n235">
-      <data key="d9"/>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -5905,7 +5954,6 @@ AA32 -&gt; 'animal'
       </data>
     </edge>
     <edge id="e153" source="n235" target="n243">
-      <data key="d9"/>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -5918,7 +5966,6 @@ AA32 -&gt; 'animal'
       </data>
     </edge>
     <edge id="e154" source="n235" target="n239">
-      <data key="d9"/>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -5931,7 +5978,6 @@ AA32 -&gt; 'animal'
       </data>
     </edge>
     <edge id="e155" source="n239" target="n243">
-      <data key="d9"/>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -5944,7 +5990,6 @@ AA32 -&gt; 'animal'
       </data>
     </edge>
     <edge id="e156" source="n235" target="n237">
-      <data key="d9"/>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -5957,7 +6002,6 @@ AA32 -&gt; 'animal'
       </data>
     </edge>
     <edge id="e157" source="n237" target="n243">
-      <data key="d9"/>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -5970,7 +6014,6 @@ AA32 -&gt; 'animal'
       </data>
     </edge>
     <edge id="e158" source="n235" target="n241">
-      <data key="d9"/>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -5983,7 +6026,6 @@ AA32 -&gt; 'animal'
       </data>
     </edge>
     <edge id="e159" source="n241" target="n243">
-      <data key="d9"/>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -5996,7 +6038,6 @@ AA32 -&gt; 'animal'
       </data>
     </edge>
     <edge id="e160" source="n253" target="n251">
-      <data key="d9"/>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -6009,7 +6050,6 @@ AA32 -&gt; 'animal'
       </data>
     </edge>
     <edge id="e161" source="n251" target="n253">
-      <data key="d9"/>
       <data key="d10">
         <y:ArcEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -6022,7 +6062,6 @@ AA32 -&gt; 'animal'
       </data>
     </edge>
     <edge id="e162" source="n255" target="n262">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6033,7 +6072,6 @@ AA32 -&gt; 'animal'
       </data>
     </edge>
     <edge id="e163" source="n262" target="n258">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6044,7 +6082,6 @@ AA32 -&gt; 'animal'
       </data>
     </edge>
     <edge id="e164" source="n258" target="n260">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6055,7 +6092,6 @@ AA32 -&gt; 'animal'
       </data>
     </edge>
     <edge id="e165" source="n260" target="n257">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6066,7 +6102,6 @@ AA32 -&gt; 'animal'
       </data>
     </edge>
     <edge id="e166" source="n257" target="n255">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6077,7 +6112,6 @@ AA32 -&gt; 'animal'
       </data>
     </edge>
     <edge id="e167" source="n266" target="n269">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6088,7 +6122,6 @@ AA32 -&gt; 'animal'
       </data>
     </edge>
     <edge id="e168" source="n269" target="n264">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6099,7 +6132,6 @@ AA32 -&gt; 'animal'
       </data>
     </edge>
     <edge id="e169" source="n264" target="n271">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6110,7 +6142,6 @@ AA32 -&gt; 'animal'
       </data>
     </edge>
     <edge id="e170" source="n271" target="n267">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6121,7 +6152,6 @@ AA32 -&gt; 'animal'
       </data>
     </edge>
     <edge id="e171" source="n267" target="n266">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6132,7 +6162,6 @@ AA32 -&gt; 'animal'
       </data>
     </edge>
     <edge id="e172" source="n283" target="n275">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6143,7 +6172,6 @@ AA32 -&gt; 'animal'
       </data>
     </edge>
     <edge id="e173" source="n275" target="n279">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6154,7 +6182,6 @@ AA32 -&gt; 'animal'
       </data>
     </edge>
     <edge id="e174" source="n279" target="n281">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6165,7 +6192,6 @@ AA32 -&gt; 'animal'
       </data>
     </edge>
     <edge id="e175" source="n281" target="n277">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6176,7 +6202,6 @@ AA32 -&gt; 'animal'
       </data>
     </edge>
     <edge id="e176" source="n277" target="n283">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6187,7 +6212,6 @@ AA32 -&gt; 'animal'
       </data>
     </edge>
     <edge id="e177" source="n292" target="n286">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6198,7 +6222,6 @@ AA32 -&gt; 'animal'
       </data>
     </edge>
     <edge id="e178" source="n286" target="n294">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6209,7 +6232,6 @@ AA32 -&gt; 'animal'
       </data>
     </edge>
     <edge id="e179" source="n294" target="n290">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6220,7 +6242,6 @@ AA32 -&gt; 'animal'
       </data>
     </edge>
     <edge id="e180" source="n290" target="n288">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6231,7 +6252,6 @@ AA32 -&gt; 'animal'
       </data>
     </edge>
     <edge id="e181" source="n288" target="n292">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6242,7 +6262,6 @@ AA32 -&gt; 'animal'
       </data>
     </edge>
     <edge id="e182" source="n300" target="n297">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6253,7 +6272,6 @@ AA32 -&gt; 'animal'
       </data>
     </edge>
     <edge id="e183" source="n297" target="n304">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6264,7 +6282,6 @@ AA32 -&gt; 'animal'
       </data>
     </edge>
     <edge id="e184" source="n304" target="n299">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6275,7 +6292,6 @@ AA32 -&gt; 'animal'
       </data>
     </edge>
     <edge id="e185" source="n299" target="n302">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6286,7 +6302,6 @@ AA32 -&gt; 'animal'
       </data>
     </edge>
     <edge id="e186" source="n302" target="n300">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6397,7 +6412,6 @@ AA32 -&gt; 'animal'
       </data>
     </edge>
     <edge id="e197" source="n321" target="n329">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6408,7 +6422,6 @@ AA32 -&gt; 'animal'
       </data>
     </edge>
     <edge id="e198" source="n329" target="n324">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6419,7 +6432,6 @@ AA32 -&gt; 'animal'
       </data>
     </edge>
     <edge id="e199" source="n324" target="n319">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6430,7 +6442,6 @@ AA32 -&gt; 'animal'
       </data>
     </edge>
     <edge id="e200" source="n319" target="n326">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6441,7 +6452,6 @@ AA32 -&gt; 'animal'
       </data>
     </edge>
     <edge id="e201" source="n326" target="n322">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6452,6 +6462,37 @@ AA32 -&gt; 'animal'
       </data>
     </edge>
     <edge id="e202" source="n322" target="n321">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e203" source="n342" target="n355">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="-51.408680194597764" ty="14.5782720190399"/>
+          <y:LineStyle color="#99CC00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e204" source="n355" target="n353">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="-13.201801292136224" ty="-174.58468290583562"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e205" source="n344" target="n357">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
@@ -6462,7 +6503,7 @@ AA32 -&gt; 'animal'
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e203" source="n342" target="n334">
+    <edge id="e206" source="n357" target="n353">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
@@ -6473,18 +6514,20 @@ AA32 -&gt; 'animal'
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e204" source="n344" target="n334">
+    <edge id="e207" source="n155" target="n157">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="9417.68418805339" y="262.3542595683332"/>
+          </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e205" source="n345" target="n336">
+    <edge id="e208" source="n155" target="n359">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
