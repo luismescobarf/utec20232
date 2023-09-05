@@ -67,11 +67,14 @@ cuadroTurnos = list()
 # turno = dict()
 # turno['duracion'] = sumatoriaServicios
 # turno['listadoServicios'] = [
-#                                 {'duracion': 171, 
+#                                   'codigo':14
+#                                   'duracion': 171, 
 #                                  't0': 430, 
 #                                  'tf': 601
 #                                  },
-#                                 {'duracion': 116, 
+#                                 {
+#                                   'codigo':10,
+#                                   'duracion': 116, 
 #                                  't0': 700, 
 #                                  'tf': 816
 #                                  }
@@ -79,7 +82,18 @@ cuadroTurnos = list()
 
 
 #Acomodar cada uno de los turnos
-#Concurrent scheduler
+#Concurrent scheduler (modificado corto)
+#1) Ordenar todos los servicios que deben ser programados de forma ascen
+#dente con t0
+#2) Primer servicio inicializa el primer turno
+#3) Por cada uno de los demás servicios (desde el segundo en adelante):
+# - Si se cumplen las condiciones:  a) No Traslape de ventanas de tiempo (último servicio)
+#                                   b) No sobrepasar ocupación
+#       Añadir el servicio acutal al turno que estamos construyendo
+#De lo contrario:
+#       Cerramos el turno y lo agregamos al cuadro de turnos 
+#       Abrimos un nuevo turno con el servicio actual 
+#Al terminar queda pendiente un turno  y este debe agregarse al cuadro de turnos
 
 
 
