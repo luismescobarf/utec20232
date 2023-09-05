@@ -2,6 +2,31 @@
 import random
 import pprint as pp
 
+#Definición de funciones
+def generarCasoCSP():
+    coleccionServicios = list()
+    
+    #Generación aleatoria de servicios
+    numeroServicios = 5
+    cuatroAM = 240 #Minutos
+    diezPM = 1320 #Minutos
+    for i in range(numeroServicios):
+        t0 = random.randint(cuatroAM,diezPM)
+        tf = int()
+        while True:
+            tf = random.randint(cuatroAM,diezPM)
+            if tf > t0 and tf-t0 <= 180 and tf-t0 > 15:
+                servicio = {
+                    'codigo': i,
+                    't0':t0,
+                    'tf':tf,
+                    'duracion':tf-t0
+                }
+                coleccionServicios.append(servicio)
+                break    
+    return coleccionServicios
+    
+
 
 #Caso de estudio de asignación
 #Caso 1
@@ -63,17 +88,27 @@ print("Instrucciones posteriores al cierre del archivo")
 #Lectura del archivo generado
 coleccionDesdeArchivo = list()
 rutaRecurso = "recursos/loteServicios.txt"
-with open(rutaRecurso,"r") as f:
-    for linea in f.readlines():
-        linea = linea.strip()
-        registro = linea.split(" ")
-        servicio = {
-                'codigo': int(registro[0]), 
-                'duracion': int(registro[1]),  
-                't0': int(registro[2]), 
-                'tf': int(registro[3]) 
-        }
-        coleccionDesdeArchivo.append(servicio)
+# rutaRecurso = "loteServicios.txt"
+
+try: 
+    
+    with open(rutaRecurso,"r") as f:
+        for linea in f.readlines():
+            linea = linea.strip()
+            registro = linea.split(" ")
+            servicio = {
+                    'codigo': int(registro[0]), 
+                    'duracion': int(registro[1]),  
+                    't0': int(registro[2]), 
+                    'tf': int(registro[3]) 
+            }
+            coleccionDesdeArchivo.append(servicio)
+            
+except FileNotFoundError:
+    print("Archivo no encontrado!!! Generando set aleatorio")
+    coleccionDesdeArchivo = generarCasoCSP()
+    print("Fin de caso alterno")
+
 
 print("Contenido cargado desde el archivo:")
 pp.pprint(coleccionDesdeArchivo)
