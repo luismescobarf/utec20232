@@ -15,25 +15,25 @@ coleccionServicios = []
 # }
 
 
-#Generación aleatoria de servicios
-numeroServicios = 20
-cuatroAM = 240 #Minutos
-diezPM = 1320 #Minutos
-for i in range(numeroServicios):
-    t0 = random.randint(cuatroAM,diezPM)
-    tf = int()
-    while True:
-        tf = random.randint(cuatroAM,diezPM)
-        if tf > t0 and tf-t0 <= 180 and tf-t0 > 15:
-            servicio = {
-                'codigo': i,
-                't0':t0,
-                'tf':tf,
-                'duracion':tf-t0
-            }
-            coleccionServicios.append(servicio)
-            break
-pp.pprint(coleccionServicios)
+# #Generación aleatoria de servicios
+# numeroServicios = 20
+# cuatroAM = 240 #Minutos
+# diezPM = 1320 #Minutos
+# for i in range(numeroServicios):
+#     t0 = random.randint(cuatroAM,diezPM)
+#     tf = int()
+#     while True:
+#         tf = random.randint(cuatroAM,diezPM)
+#         if tf > t0 and tf-t0 <= 180 and tf-t0 > 15:
+#             servicio = {
+#                 'codigo': i,
+#                 't0':t0,
+#                 'tf':tf,
+#                 'duracion':tf-t0
+#             }
+#             coleccionServicios.append(servicio)
+#             break
+# pp.pprint(coleccionServicios)
 
 #Caso de estudio de asignación
 #Caso 1
@@ -60,7 +60,29 @@ coleccionServicios = [
     {'codigo': 19, 'duracion': 66, 't0': 1122, 'tf': 1188}
  ]
 
+#Acomodar cada uno de los turnos
+#Concurrent scheduler (modificado corto)
+#------------------------------------------
+#0) Inicializar contendor para todos los turnos (cuadroTurnos)
+#1) Ordenar todos los servicios que deben ser programados de forma ascen
+#dente con t0
+#2) Primer servicio inicializa el primer turno
+#3) Por cada uno de los demás servicios (desde el segundo en adelante):
+# - Si se cumplen las condiciones:  a) No Traslape de ventanas de tiempo (último servicio)
+#                                   b) No sobrepasar ocupación
+#       Añadir el servicio acutal al turno que estamos construyendo
+#De lo contrario:
+#       Cerramos el turno y lo agregamos al cuadro de turnos 
+#       Abrimos un nuevo turno con el servicio actual 
+#4) Al terminar queda pendiente un turno  y este debe agregarse al cuadro de turnos
+
+#Implementación del algoritmo
+#----------------------------
+
+duracionTurno = 480 #8 horas o 480 minutos
+
 #Inicializar cuadro de turnos -> Lista (también podría ser un diccionario)
+#0) Inicializar contendor para todos los turnos (cuadroTurnos)
 cuadroTurnos = list()
 
 #Esquema de un turno
@@ -81,19 +103,58 @@ cuadroTurnos = list()
 #                             ]
 
 
-#Acomodar cada uno de los turnos
-#Concurrent scheduler (modificado corto)
+
 #1) Ordenar todos los servicios que deben ser programados de forma ascen
 #dente con t0
+# coleccionServicios.sort(key= lambda servicio : servicio['t0'])
+coleccionServicios.sort(reverse=True,key= lambda servicio : servicio['duracion'])
+
 #2) Primer servicio inicializa el primer turno
+turno = {
+    'duracion':coleccionServicios[0]['duracion'],
+    'listadoServicios': [ coleccionServicios[0] ]
+    }
+
 #3) Por cada uno de los demás servicios (desde el segundo en adelante):
-# - Si se cumplen las condiciones:  a) No Traslape de ventanas de tiempo (último servicio)
-#                                   b) No sobrepasar ocupación
-#       Añadir el servicio acutal al turno que estamos construyendo
-#De lo contrario:
-#       Cerramos el turno y lo agregamos al cuadro de turnos 
-#       Abrimos un nuevo turno con el servicio actual 
-#Al terminar queda pendiente un turno  y este debe agregarse al cuadro de turnos
+for i in range(1,len(coleccionServicios)):
+    servicioActual = coleccionServicios[i]
+    
+    # - Si se cumplen las condiciones:  a) No Traslape de ventanas de tiempo (último servicio)
+    #                                   b) No sobrepasar ocupación
+    condicion_a = servicioActual['t0'] >= turno['listadoServicios'][-1]['tf']
+    condicion_b = turno['duracion'] + servicioActual['duracion'] <= duracionTurno
+    if condicion_a and condicion_b:
+        #Añadir (actualizaciones) el servicio acutal al turno que estamos construyendo
+        turno['duracion'] = turno['duracion'] + servicioActual['duracion']
+        turno['listadoServicios'].append(servicioActual)
+    else:
+        #Cerramos el turno y lo agregamos al cuadro de turnos 
+        cuadroTurnos.append(turno.copy())
+        turno['duracion'] = 0
+        turno['listadoServicios'] = []        
+        
+        #Abrimos un nuevo turno con el servicio actual
+        turno['duracion'] = servicioActual['duracion']
+        turno['listadoServicios'].append(servicioActual)
+      
+#Salida de diagnóstico
+# pp.pprint(cuadroTurnos)
+
+#4) Al terminar queda pendiente un turno  y este debe agregarse al cuadro de turnos
+cuadroTurnos.append(turno.copy())
+
+#Programación completa
+pp.pprint(cuadroTurnos)
+print(f"Se necesitan {len(cuadroTurnos)} conductores para esta programación")
+
+        
+        
+        
+    
+    
+    
+
+
 
 
 
