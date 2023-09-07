@@ -4,6 +4,7 @@ Sesión Septiembre 7
 - Archivos de texto plano (lectura y escritura)
 
 - Diccionarios y archivos JSON
+	* JSON -> JavaScript Object Notation
 
 - Archivos y Estructuras de Datos Aplicado -> Caso Uruguay
 
