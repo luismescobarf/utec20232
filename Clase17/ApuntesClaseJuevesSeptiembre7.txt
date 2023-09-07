@@ -6,6 +6,8 @@ Sesión Septiembre 7
 - Diccionarios y archivos JSON
 	* JSON -> JavaScript Object Notation
 
+- Cargar un JSON de un repositorio de datos abiertos
+
 - Archivos y Estructuras de Datos Aplicado -> Caso Uruguay
 
 - Conversión de contenedores
