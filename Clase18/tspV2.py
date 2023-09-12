@@ -1,12 +1,8 @@
 #Librerías
 import pprint as pp
 import random 
-
-
-
-
-
-
+import matplotlib.pyplot as plt
+import os
     
 
 #Distancia Euclidiana
@@ -158,10 +154,45 @@ def cargarCasoTSP(rutaArchivo: str) -> list:
     #Retornando la red recibida
     return nodosArchivo    
 
-   
+def ejemploGraficadoMatplotlib():
+    numeroPuntos = 10
+    componentesX = list(range(10))      
+    componentesY = []
+    for i in range(numeroPuntos):
+        componentesY.append(i**2)
+        
+    #Ejemplo básico de graficado matplotlib
+    plt.plot(
+        #Componentes en X
+        componentesX,
+        #Componentes en Y
+        componentesY,
+        #Estilo graficado
+        'bs:'
+    )
+    
+    #Guardarlo en un archivo (evitar sobreescrituras)
+    nombreArchivo = "primerPlot"
+    elementosCarpeta=os.listdir("./")
+    # pp.pprint(elementosCarpeta)
+    ocurrenciasNombreArchivo = 0
+    for elemento in elementosCarpeta:
+        if elemento.endswith(".png") and nombreArchivo in elemento:
+            ocurrenciasNombreArchivo += 1   
+    
+    plt.savefig(nombreArchivo+str(ocurrenciasNombreArchivo+1)+'.png',bbox_inches='tight')
+    
+    #Mostrarlo en pantalla
+    plt.show()
+    
     
 #Sección principal
 ##################
+
+#Llamado ejemplo básico de graficado
+ejemploGraficadoMatplotlib()
+# input()
+
 
 #Represntar red
 nodos = [] #Permite asociar un id a cada uno de los elementos
@@ -176,6 +207,9 @@ nodos = [] #Permite asociar un id a cada uno de los elementos
 
 #Cargar nodos desde archivo
 nodos = cargarCasoTSP("uy734.tsp")
+
+#Óptimo caso Uruguay
+optimoCasoUY = 79114
 
 #Salida de diagnóstico
 print("-------------------------")
