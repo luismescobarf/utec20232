@@ -69,7 +69,10 @@ def heuristicaNN_UnicoArranque(nodos,conexiones):
         
         # #Salida de diagnóstico
         # print("-->Estado de la ruta")
-        # pp.pprint(ruta)        
+        # pp.pprint(ruta)  
+        
+        #Mostrar estado de la ruta gráficamente
+        dibujarAvance(ruta,nodos)
         
         #Último nodo cubierto -> Nodo actual
         nodoActual = ruta[-1]
@@ -155,6 +158,7 @@ def cargarCasoTSP(rutaArchivo: str) -> list:
     return nodosArchivo    
 
 def ejemploGraficadoMatplotlib():
+    
     numeroPuntos = 10
     componentesX = list(range(10))      
     componentesY = []
@@ -185,12 +189,77 @@ def ejemploGraficadoMatplotlib():
     #Mostrarlo en pantalla
     plt.show()
     
+#Dibujar los nodos de la red que se ha cargado
+def dibujarCasoTSP(nodos):
+    
+    componentesX = []
+    componentesY = []
+    
+    for nodo in nodos:
+        componentesX.append(nodo['x'])
+        componentesY.append(nodo['y'])
+        
+    plt.scatter(
+        componentesX,
+        componentesY,
+        s=10,
+        marker='v'
+    )
+    
+    plt.show()    
+    
+#Dibujar la ruta que se está construyendo
+def dibujarAvance(ruta,nodos):
+    
+    componentesX = []
+    componentesY = []
+    
+    for nodo in nodos:
+        componentesX.append(nodo['x'])
+        componentesY.append(nodo['y'])
+        
+    plt.scatter(
+        componentesX,
+        componentesY,
+        s=10,
+        marker='v'
+    )
+    
+    componentesX_NodosCubiertos = []
+    componentesY_NodosCubiertos = []
+    for nodoCubierto in ruta:
+        componentesX_NodosCubiertos.append( nodos[nodoCubierto]['x'])
+        componentesY_NodosCubiertos.append( nodos[nodoCubierto]['y'] )
+    
+    #Resaltar los puntos cubiertos
+    plt.scatter(
+        componentesX_NodosCubiertos,
+        componentesY_NodosCubiertos,
+        s=20,
+        marker='d'
+    )
+    
+    #Unir los puntos cubiertos
+    plt.plot(
+        componentesX_NodosCubiertos,
+        componentesY_NodosCubiertos,
+        linewidth=0.5
+    )
+    
+    #Activar mostrar el avance
+    #plt.show() 
+    
+    #Almacenar en una carpeta el avance (animación)
+    rutaGraficos = 'avanceNN_TSP/'
+    plt.savefig(rutaGraficos+str(len(ruta))+'.png',bbox_inches="tight")
+    
+    
     
 #Sección principal
 ##################
 
 #Llamado ejemplo básico de graficado
-ejemploGraficadoMatplotlib()
+# ejemploGraficadoMatplotlib()
 # input()
 
 
@@ -207,6 +276,9 @@ nodos = [] #Permite asociar un id a cada uno de los elementos
 
 #Cargar nodos desde archivo
 nodos = cargarCasoTSP("uy734.tsp")
+
+#Mostrar nodos cargados graficamente
+dibujarCasoTSP(nodos)
 
 #Óptimo caso Uruguay
 optimoCasoUY = 79114
