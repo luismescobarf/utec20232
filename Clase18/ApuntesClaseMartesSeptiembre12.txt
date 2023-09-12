@@ -1,0 +1,18 @@
+Sesión Septiembre 12
+--------------------
+
+- Archivos y Estructuras de Datos Aplicado -> Caso Uruguay
+	* Carga de archivo de texto plano
+	* Utilización en implementación
+	* Introducción Matplotlib
+
+- Conversión de estructuras de datos o colecciones
+
+- Paradigma Funcional y List Comprehension
+
+- Numpy -> Afectando de forma declarativa colecciones
+
+Enlaces de interés:
+Librería Clásica de TSP -> http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/
+Librería Casos Nacionales y Mundiales -> https://www.math.uwaterloo.ca/tsp/world/
+Caso Uruguay -> https://www.math.uwaterloo.ca/tsp/world/uy734.tsp
