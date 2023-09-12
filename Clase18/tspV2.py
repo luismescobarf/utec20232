@@ -118,6 +118,45 @@ def heuristicaNN_UnicoArranque(nodos,conexiones):
     #Retornar la solución en la estructura de datos preestablecida
     return solucion
 
+#Cargar casos TSP de National TSPs
+def cargarCasoTSP(rutaArchivo: str) -> list:
+    
+    
+    # #Formato en el que quedará el caso que vamos a cargar
+    
+    # #Represntar red
+    # nodos = [] #Permite asociar un id a cada uno de los elementos
+    
+    # nodos.append({'Nombre':'A','x':0,'y':0})
+    # nodos.append({'Nombre':'B','x':10,'y':10})
+    # nodos.append({'Nombre':'C','x':-10,'y':-3})
+    # nodos.append({'Nombre':'D','x':-5,'y':8})
+    # nodos.append({'Nombre':'E','x':11,'y':-2})
+    # nodos.append({'Nombre':'Z','x':13,'y':5})
+    
+    #Contenedor para los nodos del archivo
+    nodosArchivo = []
+    
+    try:
+        with open(rutaArchivo,'r') as f:
+            for i,linea in enumerate(f.readlines()):
+                #Evitar las líneas del encabezado
+                if i>= 7:
+                    #Limpiando movimientos de carro y caracteres especiales
+                    linea = linea.strip()
+                    #Evitando el final de archivo que tienen las instancias
+                    if linea != 'EOF':
+                        registro = linea.split(" ")
+                        nodosArchivo.append({
+                            'Nombre': str(registro[0]),
+                            'x': float(registro[1]),                         
+                            'y': float(registro[2])                         
+                        })     
+    except FileNotFoundError:
+        print(f"Error abriendo archivo: {rutaArchivo}")        
+    
+    #Retornando la red recibida
+    return nodosArchivo    
 
    
     
@@ -127,13 +166,22 @@ def heuristicaNN_UnicoArranque(nodos,conexiones):
 #Represntar red
 nodos = [] #Permite asociar un id a cada uno de los elementos
 
-#Nodo a nodo adición en esa lista
-nodos.append({'Nombre':'A','x':0,'y':0})
-nodos.append({'Nombre':'B','x':10,'y':10})
-nodos.append({'Nombre':'C','x':-10,'y':-3})
-nodos.append({'Nombre':'D','x':-5,'y':8})
-nodos.append({'Nombre':'E','x':11,'y':-2})
-nodos.append({'Nombre':'Z','x':13,'y':5})
+# #Nodo a nodo adición en esa lista (dummie)
+# nodos.append({'Nombre':'A','x':0,'y':0})
+# nodos.append({'Nombre':'B','x':10,'y':10})
+# nodos.append({'Nombre':'C','x':-10,'y':-3})
+# nodos.append({'Nombre':'D','x':-5,'y':8})
+# nodos.append({'Nombre':'E','x':11,'y':-2})
+# nodos.append({'Nombre':'Z','x':13,'y':5})
+
+#Cargar nodos desde archivo
+nodos = cargarCasoTSP("uy734.tsp")
+
+#Salida de diagnóstico
+print("-------------------------")
+pp.pprint(nodos)
+print("-------------------------")
+# input()
 
 # #Construir ED
 # conexiones = [
@@ -178,6 +226,11 @@ for i in range(len(nodos)):
                                         (nodos[j]['x'],nodos[j]['y'])
                                     )
                                 )#Final de la tupla por cada conexión
+
+#Salida de diagnóstico
+print("---------------")
+print(f"Número de conexiones -> {len(conexiones)}")
+print("---------------")
 
 
 #Comparación de heurísticas
