@@ -5,6 +5,7 @@ Sesión Septiembre 14
 	* Carga de archivo de texto plano
 	* Utilización en implementación
 	* Introducción Matplotlib
+	* Generar una animación (GIF)
 
 - Conversión de estructuras de datos o colecciones
 

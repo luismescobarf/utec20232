@@ -3,6 +3,7 @@ import pprint as pp
 import random 
 import matplotlib.pyplot as plt
 import os
+import imageio.v2 as imageio
     
 
 #Distancia Euclidiana
@@ -252,6 +253,31 @@ def dibujarAvance(ruta,nodos):
     #Almacenar en una carpeta el avance (animación)
     rutaGraficos = 'avanceNN_TSP/'
     plt.savefig(rutaGraficos+str(len(ruta))+'.png',bbox_inches="tight")
+    plt.cla()
+    
+#Construye una colección (lista) de imágenes
+def generarGIF(rutaImagenes):
+    
+    #Extraer nombres de los archivos en orden de secuencia
+    listaNombresArchivos = os.listdir(rutaImagenes)
+    listaPrefijosNumericosArchivos = []
+    for archivo in listaNombresArchivos:
+        if archivo.endswith(".png"):
+            listaPrefijosNumericosArchivos.append(
+                int(archivo.split(".")[0])
+                )
+    listaPrefijosNumericosArchivos.sort()
+    
+    #ED para colección de imágenes
+    imagenes = []
+    for prefijo in listaPrefijosNumericosArchivos:
+        rutaImagen = rutaImagenes+str(prefijo)+".png"
+        imagenes.append(
+                imageio.imread(rutaImagen)
+            )
+        
+    #Construir el GIF
+    imageio.mimsave('animacionNN_TSP.gif',imagenes)    
     
     
     
@@ -342,9 +368,13 @@ print("---------------")
 #Comparación de heurísticas
 #--------------------------
 
-#Llamado a heurística y salidas en pantalla de indicadores
-print("---->Vecino Más Cercano Único Arranque")
-pp.pprint(heuristicaNN_UnicoArranque(nodos, conexiones)) 
+# #Llamado a heurística y salidas en pantalla de indicadores
+# print("---->Vecino Más Cercano Único Arranque")
+# pp.pprint(heuristicaNN_UnicoArranque(nodos, conexiones)) 
+
+#Llamado a función para generar animación con los plots
+generarGIF('avanceNN_TSP/')
+
 
 
 #Estudio comparativo con otros arranques...
