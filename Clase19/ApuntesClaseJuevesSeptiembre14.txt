@@ -8,10 +8,7 @@ Sesión Septiembre 14
 	* Generar una animación (GIF)
 
 - Conversión de estructuras de datos o colecciones
-
 - Paradigma Funcional y List Comprehension
-
 - Numpy -> Afectando de forma declarativa colecciones
-
 - Tres en raya implementado con Numpy
 
