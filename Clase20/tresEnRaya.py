@@ -1,6 +1,8 @@
 import numpy as np
 import pprint as pp
 import random
+import matplotlib.pyplot as plt
+import time
 
 
 #Visualizar el tablero
@@ -174,12 +176,48 @@ def ejecutarJuego():
             
         #El juego continúa -> mostrar el tablero y alternar jugador
         mostrarTablero(tablero)
-        input()       
+        # input()       
     
     
 #Sección principal
 #------------------
-ejecutarJuego()
+
+#Recoger información de simulaciones de juego (proporciones de ganadores)
+numeroSimulaciones = 5
+resultadoSimulaciones = [0,0,0] #Primera Gana X, Segunda Ganó O, Empates
+
+#Ciclo de simulaciones
+for i in range(numeroSimulaciones):
+    print()
+    print()
+    print(f"*****Simulación {i}*****")
+    resultadoJuego = ejecutarJuego()
+    #Incrementar cuando gana X
+    if resultadoJuego == 10:
+        resultadoSimulaciones[0] += 1
+    #Incrementar cuando gana O
+    elif resultadoJuego == 1:
+        resultadoSimulaciones[1] += 1
+    #Incrementar cuando tenemos un empate 
+    elif resultadoJuego == 0:
+        resultadoSimulaciones[2] += 1
+        
+    #Retraso de un segundo en la ejecución
+    time.sleep(1)
+
+#Visualizar proporciones de los resultados de la simulación
+#Pastel
+etiquetas = ['X','O','Empate']
+separacionesCentro = (0.1,0.1,0.2)
+plt.pie(
+    resultadoSimulaciones,
+    labels=etiquetas,
+    autopct='%1.2f%%',
+    explode = separacionesCentro,
+    shadow=True,
+)
+plt.show()
+    
     
 
 
