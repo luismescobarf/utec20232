@@ -1,0 +1,35 @@
+Sesión Septiembre 19
+--------------------
+
+- Tres en raya implementado con Numpy
+
+- Introducción a Pandas
+
+- Carga de archivos con Pandas
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Consulta Maria Victoria:
+------------------------
+-> Sugerencia: media móvil
+-> Utilización pandas: df['MA2']=df['Cierre'].rolling(window=2).mean().shift(1)
+El complemento .rolling(window=NumeroDeMediasMoviles).mean() logra obtener las 
+medias móviles a partir del promedio de los dos datos anteriores, el shift es 
+para poder mover un espacio la media y así la media móvil del periodo N será igual 
+al promedio del periodo N-1 y N-2, sin esa parte del código sacaría el promedio del 
+periodo N y N-1 para esa misma posición, así que con eso regulamos que las medias 
+sean de los dos periodos anteriores.
+-> Enlace de interés: https://admiralmarkets.com/es/education/articles/forex-indicators/media-movil-simple
