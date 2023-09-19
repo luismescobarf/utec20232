@@ -5,7 +5,8 @@ Sesión Septiembre 19
 	* Ejercicio adicional implementar el tres en raya sin librerías.
 	* Plots básicos del tres en raya (dos jugadores automáticos)
 
-- Introducción a Pandas
+- Introducción a Pandas ->  Series (unidad fundamental)
+							Dataframe colección de Series
 
 - Carga de archivos con Pandas
 
